@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce</title>
+    <link rel="stylesheet" href="pro.css">
+    
+</head>
+
+<body>
+
+    <!-- =================================WEB Page ================================= -->
+    <header>
+        <!-- =============================== TopBar ==================================== -->
+
+        <nav id="topbar">
+            <div class="heading">
+                <img src="/icon-menu.svg" alt="">
+                <h2>sneakers</h2>
+            </div>
+
+            <!-- =============================== Navbar ==================================== -->
+
+            <div class="items">
+                <ul>
+                    <li class="ab"><a href="#">Collections</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- =============================== logo ==================================== -->
+
+            <div class="logo"  >
+
+                <img src="./icon-cart.svg" alt="" onclick="dropdown()">
+                <div class="dropdown" id="drop">
+                    <!-- =============================== Dropdown ==================================== -->
+                    <div class="dropdown-content" >
+                        <div class="heading">
+                            <h3>Cart</h3>
+                        </div>
+                        <hr class="drop-hr">
+                        <div class="parts">
+                            <div><img src="./image-product-1-thumbnail.jpg" alt="" class="drop-img"></div>
+                            <div class="drop-text">
+                                <div>Fall limited EditionSneakers <br>
+                                    $125.00 x <strong>$375.00</strong></div>
+                            </div>
+                            <div class="icon">
+                                <img src="./icon-delete.svg" alt="" class="drop-delt">
+                            </div>
+                        </div>
+                        <div class="Checkout">
+                            <button>Checkout</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- =============================== Dropdown-End ==================================== -->
+
+                <img src="./image-avatar.png" alt="" class="log">
+            </div>
+        </nav>
+        <hr>
+        <br>
+        <br>
+        <!--============================= Body Content ================================== -->
+        <section id="main-block">
+            <!-- ============================== left-Boxes ===================================-->
+
+            <div class="left-box">
+                <!-- ============================== First-Block ==============================-->
+                <div class="img">
+                    <img src="./image-product-1.jpg" alt="" class="prod-1">
+                </div>
+
+                <!-- ============================ second-block ===================================-->
+
+                <div class="imgs">
+                    <img src="./image-product-1-thumbnail.jpg" alt="" class="product">
+                    <img src="./image-product-2-thumbnail.jpg" alt="" class="product">
+                    <img src="./image-product-3-thumbnail.jpg" alt="" class="product">
+                    <img src="./image-product-4-thumbnail.jpg" alt="" class="product">
+                </div>
+            </div>
+
+            <!-- =============================== Right-Boxes =================================-->
+
+            <div class="right-box">
+
+                <div class="name">SNEAKER COMPANY</div>
+
+                <!-- ============================ Heading--Para ==============================-->
+
+                <div class="title">
+                    <h1>Fall Limted Edition <br>Sneakers</h1>
+                </div>
+                <div class="para">
+                    <p>
+                        These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber
+                        outer sole, they’ll withstand everything the weather can offer.
+                    </p>
+                </div>
+
+                <!-- ============================== Disaccount Tags ==============================-->
+
+                <div class="price">
+                    <p><big>$125.00</big><span class="p"> 50% </span><br> <del>$250.00</del></p>
+                </div>
+
+                <!-- ============================== ADD or Minus product =========================-->
+
+                <div class="part">
+                    <div class="value">
+                        <img src="./icon-minus.svg" alt="minus" class="minus">
+                        <span id="incr">0</span>
+                        <img src="./icon-plus.svg" alt="" class="plus">
+                    </div>
+
+                    <!-- =============================== Button + logo ===============================-->
+
+                    <div class="btn">
+                        <button><img src="./icon-cart.svg" alt="" class="crt">
+                            <center> Add to Cart</center>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <script src="pro.js">
+       
+    </script>
+    <!-- ================================ Prjoect End ===============================-->
+</body>
+
+</html>
